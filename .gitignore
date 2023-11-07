@@ -1,0 +1,8 @@
+# macOS
+.DS_Store
+
+# js
+node_modules
+
+# app
+dest

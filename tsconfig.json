@@ -1,0 +1,12 @@
+{
+  "extends": "@themagician/tsconfig-base",
+  "compilerOptions": {
+    "declaration": false,
+    "baseUrl": ".",
+    "paths": {
+      "/*": ["./src/*"]
+    },
+    "outDir": "dest/js"
+  },
+  "include": ["./src/"]
+}
