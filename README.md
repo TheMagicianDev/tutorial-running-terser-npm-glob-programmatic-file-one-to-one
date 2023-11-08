@@ -1,4 +1,8 @@
-# tutorial-running-terser-npm-glob-programmatic
+# tutorial-running-terser-npm-glob-programmatic-file-one-to-one
+
+✨ Running commands of one to one file process-output using `npm tasks` way, and `programmatic way`.
+
+- `terser` is a good example.
 
 This repo does demonstrate the usage of:
 
