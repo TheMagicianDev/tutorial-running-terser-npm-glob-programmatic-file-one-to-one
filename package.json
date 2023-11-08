@@ -9,14 +9,19 @@
     "build:terser": "npm-run-all -s build:terser:*",
     "build:terser:clean": "rimraf dest/minified && mkdirp dest/minified",
     "build:terser:terse": "foreach -g \"dest/js/**/*.js\" --concurrent -x \"mkdirp dest/minified/#{reldir} && terser #{path} -o dest/minified/#{reldir}/#{name}.min#{ext} -c \"ecma=6,toplevel\" -m \"toplevel,eval\" --mkdir\"",
+    "build:prog": "npm-run-all -s build:ts build:terser:prog",
+    "build:terser:prog": "node scripts/terser.js",
     "terser_one": "terser dest/js/index.js -o dest/minified/index.min.js -c -m"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@themagician/tsconfig-base": "^1.0.6",
+    "@types/node": "^20.9.0",
+    "fast-glob": "^3.3.2",
     "foreach-cli": "^1.8.1",
     "mkdirp": "^3.0.1",
+    "npm-run-all": "^4.1.5",
     "rimraf": "^5.0.5",
     "terser": "^5.24.0",
     "typescript": "4.9"

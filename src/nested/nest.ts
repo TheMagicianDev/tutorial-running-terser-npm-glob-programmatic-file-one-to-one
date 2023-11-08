@@ -1,4 +1,4 @@
-export function nest(o, child) {
+export function nest(o: Object, child: Object): Object {
   return {
     ...o,
     child,
