@@ -111,6 +111,11 @@ And it expands
 
 ![](imgs/2023-11-08-01-17-26.png)
 
+You are ready to go.
+
+- To be productive with snippets. Use a good snippets extension. To have something that allow you to create them fast. **Fast** `===` **Can take part of a natural flow**
+  - Here an article [WILL BE ADDED LATER] that suggest snippets extensions and how to work with them.
+
 ## foreach-cli, reldir issue
 
 - https://github.com/danielkalen/foreach-cli/issues/10
